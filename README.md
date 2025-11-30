@@ -1,4 +1,7 @@
 # liniis-tech
+
 Repository to host documentation pages
 
-Website available at https://tiny-fingers.github.io/liniis-tech/
+Features:
+
+- configure jest for testing react component: [Configure Jest](/frontend/jest.md)
