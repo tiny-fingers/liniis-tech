@@ -67,3 +67,7 @@ export default {
 };
 
 ```
+
+## Links
+
+- configure jest for node: [Configure Jest (node)](/jest-node.md)

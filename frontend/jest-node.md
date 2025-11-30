@@ -38,3 +38,7 @@ module.exports = {
 };
 
 ```
+
+## Links
+
+- configure jest for testing react component: [Configure Jest (jsdom)](jest-react-components.md)
