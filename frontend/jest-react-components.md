@@ -1,4 +1,4 @@
-# Configure Jest
+# Configure Jest (jsdom)
 
 Dependencies:
 
@@ -24,8 +24,10 @@ Then configure jest to use the transformer
 
 ## Jest config
 
+Using *jest.config.mjs* instead of *jest.config.js* allows us to writing import and export syntax of ECMAScript Modules (ESM) instead of CommonJs pattern such as *require* and *module.export*  
+
 ```js
-// jest.config.mjs 
+// jest.config.mjs
 export default {
   testEnvironment: 'jsdom', // use this to test react compoentns, otherwise 'node' 
   preset: 'ts-jest', // working with Typescript
@@ -63,6 +65,5 @@ export default {
     '!src/index.tsx'
   ]
 };
-
 
 ```
